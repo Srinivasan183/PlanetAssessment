@@ -20,6 +20,7 @@ public class EmployeeDetails {
         String fileName = scan.next();
         System.out.println("Enter the sort element (either by firstName, LastName or Start date) : ");
         String sortBy = scan.next();
+        System.out.println(userHomeDirectory);
         String extension = "";
         int i = fileName.lastIndexOf('.');
         if (i >= 0) {
